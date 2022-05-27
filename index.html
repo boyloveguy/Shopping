@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghost Cat</title>
+    <link rel="icon" href="/assects/img/Pet2.png">
+    <link rel="stylesheet" href="/assects/fonts/fontawesome-pro-5.15.3-web/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
+    <link rel="stylesheet" href="assects/css/main.css">
+    <link rel="stylesheet" href="assects/css/base.css">
+</head>
+<body>
+    <div class="cat-shop">
+        <header class="header">
+            <!-- HEADER NAVBAR -->
+            <nav class="header__navbar grid">
+                <ul class="navbar__list">
+                    <li class="navbar__list-item navbar__list-item--border-right">Kênh Người Bán</li>
+                    <li class="navbar__list-item navbar__list-item--border-right">Trở thành Người bán Ghost Cat</li>
+                    <li class="navbar__list-item navbar__list-item--border-right show-QR">
+                        Tải ứng dụng
+
+                        <div class="navbar__QR">
+                            <div class="navbar__code-QR">
+                                <img src="/assects/img/Nike-QR-Code.png" alt="QR code">
+                            </div>
+                            <div class="navbar__app-download">
+                                <a href="">
+                                    <img src="/assects/img/Applstore.png" alt="App Store">
+                                </a>
+                                <a href="https://play.google.com/store/apps/details?id=com.nike.omega">
+                                    <img src="/assects/img/GooglePlay.png" alt="Google Play">
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="navbar__list-item--other">Kết nối<i class="navbar__icons fab fa-facebook"></i></i><i class="navbar__icons fab fa-instagram"></i></li>
+                </ul>
+
+                <ul class="navbar__list">
+                    <li class="navbar__list-item show-notification">
+                        <i class="navbar__icons fas fa-bell"></i>
+                        Thông báo
+
+                        <div class="navbar__notification">
+                            <div class="header-notification"></div>
+                            <div class="body-notification">
+                                <div>
+                                    <img src="/assects/img/Pet2.png" alt="Ghost Cat">
+                                </div>
+                                Đăng nhập để nhận thông báo
+                            </div>
+                            <div class="footer-notification">
+                                <div class="notification__button notification__button--sign-up">Đăng Ký</div>
+                                <div class="notification__button notification__button--log-in">Đăng Nhập</div>
+                            </div>
+                        </div>
+                        
+                    </li>
+                    <li class="navbar__list-item"><i class="navbar__icons fas fa-question-circle"></i>Hỗ Trợ</li>
+                    <li class="navbar__list-item navbar__list-item--border-right weight-600">Đăng ký</li>
+                    <li class="navbar__list-item weight-600">Đăng nhập</li>
+                </ul>
+            </nav>
+
+            <!-- HEADER SEARCH -->
+            <div class="header-search grid">
+                <div class="header-search__logo">
+                    <img src="/assects/img/Pet2.png" alt="Logo Ghost Cat Shop">
+                    Ghost Cat
+                </div>
+                <div class="header-search__search-box">
+                    <div class="search-box">
+                        <div class="search-box__wrap">
+                            <input type="text" class="search-box__input" placeholder="Tìm trong shop này">
+
+                            <!-- Search History -->
+                            <div class="search-box__history">
+                                <p>Lịch sử tiềm kiếm</p>
+                                <ul>
+                                    <li class="hover-dark"><a href="#">SamSung Galaxy S21 Untra</a></li>
+                                    <li class="hover-dark"><a href="#">Asus Zenbook Duo 484X</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="select">
+                            <span>Trong Shop này</span>
+                            <i class="fal fa-angle-down"></i>
+
+                            <ul class="option">
+                                <li class="hover-dark">
+                                   <span>Trong Shop này</span>
+                                   <i class="fal fa-check"></i>
+                                </li>
+                                <li class="hover-dark">
+                                    <span>Trong Ghost Cat</span>
+                                    <!-- <i class="fal fa-check"></i> -->
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="search-box__search-icon hover-opacity">
+                            <i class="far fa-search"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-search__cart">
+                    <div class="cart-icon">
+                        <i class="far fa-shopping-cart"></i>
+                        <div class="notification-box">
+                            <div class="header-notification-box"></div>
+                            <div class="body-notification-box">
+                                <div>
+                                    <img src="/assects/img/Pet2.png" alt="Ghost Cat">
+                                </div>
+                                Chưa có sản phẩm
+                            </div>
+                            <div class="footer-notification-box">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </header>
+        <div class="container">
+            <div class="grid">
+                <div class="grid-row">
+                    <nav class="category grid-col-2">
+                        <img src="/assects/img/Logo Công Tắc Game3.png" alt="Công Tắc Game">
+                        <h1 class="category-name-shop">Công Tắc Game</h1>
+                        <div class="header-category">
+                            <h2><i class="far fa-bars"></i>DANH MỤC SHOP</h2>
+                            <p>Sản Phẩm</p>
+                        </div>
+                        <div class="body-category">
+                            <ul class="product-list">
+                                <li><a href="#">Laptop Gaming<i class="far fa-chevron-right"></i></a></li>
+                                <li><a href="#">Laptop văn phòng<i class="far fa-chevron-right"></i></a></li>
+                                <li><a href="#">Apple<i class="far fa-chevron-right"></i></a></li>
+                                <li><a href="#">PC Gaming<i class="far fa-chevron-right"></i></a></li>
+                                <li><a href="#">Màn Hình<i class="far fa-chevron-right"></i></a></li>
+                                <li><a href="#">Main-CPU-VGA<i class="far fa-chevron-right"></i></a></li>
+                                <li><a href="#">Case-Tản-Nguồn<i class="far fa-chevron-right"></i></a></li>
+                                <li><a href="#">SSD-HDD-Ram<i class="far fa-chevron-right"></i></a></li>
+                                <li><a href="#">Bàn phím<i class="far fa-chevron-right"></i></a></li>
+                                <li><a href="#">Chuột<i class="far fa-chevron-right"></i></a></li>
+                                <li><a href="#">Tai nghe<i class="far fa-chevron-right"></i></a></li>
+                                <li><a href="#">Ghế & Bàn<i class="far fa-chevron-right"></i></a></li>
+                                <li><a href="#">Giảm giá<i class="far fa-chevron-right"></i></a></li>
+                            </ul>
+                        </div>
+                    </nav>
+
+                    <div class="grid-col-10">
+                        <div class="home-filter">
+                            <div class="filter-left">
+                                Sắp xếp theo
+                                <button class="btn">Phổ Biến</button>
+                                <button class="btn btn-hightlight">Mới Nhất</button>
+                                <button class="btn">Bán Chạy</button>
+                                <div class="filter-cost">Giá: Thấp đến cao<i class="far fa-chevron-down"></i>
+                                    <ul class="cost">
+                                        <li class="hover-dark">
+                                           <span>Thấp đến cao</span>
+                                           <i class="fal fa-check"></i>
+                                        </li>
+                                        <li class="hover-dark">
+                                            <span>Cao đến thấp</span>
+                                </div>
+                            </div>
+
+                            <div class="filter-right">
+                                <h4>1/14</h4>
+                                <button class="btn"><i class="far fa-chevron-left"></i></button>
+                                <button class="btn"><i class="far fa-chevron-right"></i></button>
+                            </div>
+                        </div>
+
+                        <div class="home-product">
+                            <div class="grid-row">
+                                <div class="grid-col-product background-white">
+                                    <img src="/assects/img/Asus_zephyrus.png" alt="Asus Zephyrus" class="img-product">
+                                    <div class="content-product">
+                                        <h3 class="name-product">Asus Zephyrus G14 Ryzen 7 4800HS, RTX 3050Ti,...</h3>
+                                        <p class="deal-span">Mua Kèm Deal Sốc</p>
+                                        <div class="cost-span">
+                                            <p class="root-cost">28.990.000đ</p>
+                                            <p class="current-cost">27.990.000đ</p>
+                                        </div>
+                                        <div class="evaluate-product">
+                                            <i class="fal fa-heart"></i>
+                                            <div>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <p class="sold-product">Đã bán <span>3,4k</span></p>
+                                            </div>
+                                        </div>
+                                        <p class="local-product">Hà Nội</p>
+                                    </div>
+                                    <div class="home-product__favorite">
+                                        <i class="far fa-plus"></i>
+                                        Yêu thích
+                                    </div>
+                                    <div class="home-product__sale-off">
+                                        <span class="home-product__sale-off-percent">12%</span>
+                                        <span class="home-product__sale-off-label">GIẢM</span>
+                                    </div>
+                                </div>
+
+                                <div class="grid-col-product background-white">
+                                    <img src="/assects/img/Asus_zephyrus.png" alt="Asus Zephyrus" class="img-product">
+                                    <div class="content-product">
+                                        <h3 class="name-product">Asus Zephyrus G14 Ryzen 7 4800HS, RTX 3050Ti,...</h3>
+                                        <p class="deal-span">Mua Kèm Deal Sốc</p>
+                                        <div class="cost-span">
+                                            <p class="root-cost">28.990.000đ</p>
+                                            <p class="current-cost">27.990.000đ</p>
+                                        </div>
+                                        <div class="evaluate-product">
+                                            <i class="fal fa-heart"></i>
+                                            <div>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <p class="sold-product">Đã bán <span>3,4k</span></p>
+                                            </div>
+                                        </div>
+                                        <p class="local-product">Hà Nội</p>
+                                    </div>
+                                    <div class="home-product__favorite">
+                                        <i class="far fa-plus"></i>
+                                        Yêu thích
+                                    </div>
+                                    <div class="home-product__sale-off">
+                                        <span class="home-product__sale-off-percent">12%</span>
+                                        <span class="home-product__sale-off-label">GIẢM</span>
+                                    </div>
+                                </div>
+
+                                <div class="grid-col-product background-white">
+                                    <img src="/assects/img/Asus_zephyrus.png" alt="Asus Zephyrus" class="img-product">
+                                    <div class="content-product">
+                                        <h3 class="name-product">Asus Zephyrus G14 Ryzen 7 4800HS, RTX 3050Ti,...</h3>
+                                        <p class="deal-span">Mua Kèm Deal Sốc</p>
+                                        <div class="cost-span">
+                                            <p class="root-cost">28.990.000đ</p>
+                                            <p class="current-cost">27.990.000đ</p>
+                                        </div>
+                                        <div class="evaluate-product">
+                                            <i class="fal fa-heart"></i>
+                                            <div>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <p class="sold-product">Đã bán <span>3,4k</span></p>
+                                            </div>
+                                        </div>
+                                        <p class="local-product">Hà Nội</p>
+                                    </div>
+                                    <div class="home-product__favorite">
+                                        <i class="far fa-plus"></i>
+                                        Yêu thích
+                                    </div>
+                                    <div class="home-product__sale-off">
+                                        <span class="home-product__sale-off-percent">12%</span>
+                                        <span class="home-product__sale-off-label">GIẢM</span>
+                                    </div>
+                                </div>
+
+                                <div class="grid-col-product background-white">
+                                    <img src="/assects/img/Asus_zephyrus.png" alt="Asus Zephyrus" class="img-product">
+                                    <div class="content-product">
+                                        <h3 class="name-product">Asus Zephyrus G14 Ryzen 7 4800HS, RTX 3050Ti,...</h3>
+                                        <p class="deal-span">Mua Kèm Deal Sốc</p>
+                                        <div class="cost-span">
+                                            <p class="root-cost">28.990.000đ</p>
+                                            <p class="current-cost">27.990.000đ</p>
+                                        </div>
+                                        <div class="evaluate-product">
+                                            <i class="fal fa-heart"></i>
+                                            <div>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <p class="sold-product">Đã bán <span>3,4k</span></p>
+                                            </div>
+                                        </div>
+                                        <p class="local-product">Hà Nội</p>
+                                    </div>
+                                    <div class="home-product__favorite">
+                                        <i class="far fa-plus"></i>
+                                        Yêu thích
+                                    </div>
+                                    <div class="home-product__sale-off">
+                                        <span class="home-product__sale-off-percent">12%</span>
+                                        <span class="home-product__sale-off-label">GIẢM</span>
+                                    </div>
+                                </div>
+
+                                <div class="grid-col-product background-white">
+                                    <img src="/assects/img/Asus_zephyrus.png" alt="Asus Zephyrus" class="img-product">
+                                    <div class="content-product">
+                                        <h3 class="name-product">Asus Zephyrus G14 Ryzen 7 4800HS, RTX 3050Ti,...</h3>
+                                        <p class="deal-span">Mua Kèm Deal Sốc</p>
+                                        <div class="cost-span">
+                                            <p class="root-cost">28.990.000đ</p>
+                                            <p class="current-cost">27.990.000đ</p>
+                                        </div>
+                                        <div class="evaluate-product">
+                                            <i class="fal fa-heart"></i>
+                                            <div>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <p class="sold-product">Đã bán <span>3,4k</span></p>
+                                            </div>
+                                        </div>
+                                        <p class="local-product">Hà Nội</p>
+                                    </div>
+                                    <div class="home-product__favorite">
+                                        <i class="far fa-plus"></i>
+                                        Yêu thích
+                                    </div>
+                                    <div class="home-product__sale-off">
+                                        <span class="home-product__sale-off-percent">12%</span>
+                                        <span class="home-product__sale-off-label">GIẢM</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="grid-row">
+                                <div class="grid-col-product background-white">
+                                    <img src="/assects/img/Asus_zephyrus.png" alt="Asus Zephyrus" class="img-product">
+                                    <div class="content-product">
+                                        <h3 class="name-product">Asus Zephyrus G14 Ryzen 7 4800HS, RTX 3050Ti,...</h3>
+                                        <p class="deal-span">Mua Kèm Deal Sốc</p>
+                                        <div class="cost-span">
+                                            <p class="root-cost">28.990.000đ</p>
+                                            <p class="current-cost">27.990.000đ</p>
+                                        </div>
+                                        <div class="evaluate-product">
+                                            <i class="fal fa-heart"></i>
+                                            <div>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <p class="sold-product">Đã bán <span>3,4k</span></p>
+                                            </div>
+                                        </div>
+                                        <p class="local-product">Hà Nội</p>
+                                    </div>
+                                    <div class="home-product__favorite">
+                                        <i class="far fa-plus"></i>
+                                        Yêu thích
+                                    </div>
+                                    <div class="home-product__sale-off">
+                                        <span class="home-product__sale-off-percent">12%</span>
+                                        <span class="home-product__sale-off-label">GIẢM</span>
+                                    </div>
+                                </div>
+
+                                <div class="grid-col-product background-white">
+                                    <img src="/assects/img/Asus_zephyrus.png" alt="Asus Zephyrus" class="img-product">
+                                    <div class="content-product">
+                                        <h3 class="name-product">Asus Zephyrus G14 Ryzen 7 4800HS, RTX 3050Ti,...</h3>
+                                        <p class="deal-span">Mua Kèm Deal Sốc</p>
+                                        <div class="cost-span">
+                                            <p class="root-cost">28.990.000đ</p>
+                                            <p class="current-cost">27.990.000đ</p>
+                                        </div>
+                                        <div class="evaluate-product">
+                                            <i class="fal fa-heart"></i>
+                                            <div>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <p class="sold-product">Đã bán <span>3,4k</span></p>
+                                            </div>
+                                        </div>
+                                        <p class="local-product">Hà Nội</p>
+                                    </div>
+                                    <div class="home-product__favorite">
+                                        <i class="far fa-plus"></i>
+                                        Yêu thích
+                                    </div>
+                                    <div class="home-product__sale-off">
+                                        <span class="home-product__sale-off-percent">12%</span>
+                                        <span class="home-product__sale-off-label">GIẢM</span>
+                                    </div>
+                                </div>
+
+                                <div class="grid-col-product background-white">
+                                    <img src="/assects/img/Asus_zephyrus.png" alt="Asus Zephyrus" class="img-product">
+                                    <div class="content-product">
+                                        <h3 class="name-product">Asus Zephyrus G14 Ryzen 7 4800HS, RTX 3050Ti,...</h3>
+                                        <p class="deal-span">Mua Kèm Deal Sốc</p>
+                                        <div class="cost-span">
+                                            <p class="root-cost">28.990.000đ</p>
+                                            <p class="current-cost">27.990.000đ</p>
+                                        </div>
+                                        <div class="evaluate-product">
+                                            <i class="fal fa-heart"></i>
+                                            <div>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <p class="sold-product">Đã bán <span>3,4k</span></p>
+                                            </div>
+                                        </div>
+                                        <p class="local-product">Hà Nội</p>
+                                    </div>
+                                    <div class="home-product__favorite">
+                                        <i class="far fa-plus"></i>
+                                        Yêu thích
+                                    </div>
+                                    <div class="home-product__sale-off">
+                                        <span class="home-product__sale-off-percent">12%</span>
+                                        <span class="home-product__sale-off-label">GIẢM</span>
+                                    </div>
+                                </div>
+
+                                <div class="grid-col-product background-white">
+                                    <img src="/assects/img/Asus_zephyrus.png" alt="Asus Zephyrus" class="img-product">
+                                    <div class="content-product">
+                                        <h3 class="name-product">Asus Zephyrus G14 Ryzen 7 4800HS, RTX 3050Ti,...</h3>
+                                        <p class="deal-span">Mua Kèm Deal Sốc</p>
+                                        <div class="cost-span">
+                                            <p class="root-cost">28.990.000đ</p>
+                                            <p class="current-cost">27.990.000đ</p>
+                                        </div>
+                                        <div class="evaluate-product">
+                                            <i class="fal fa-heart"></i>
+                                            <div>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <p class="sold-product">Đã bán <span>3,4k</span></p>
+                                            </div>
+                                        </div>
+                                        <p class="local-product">Hà Nội</p>
+                                    </div>
+                                    <div class="home-product__favorite">
+                                        <i class="far fa-plus"></i>
+                                        Yêu thích
+                                    </div>
+                                    <div class="home-product__sale-off">
+                                        <span class="home-product__sale-off-percent">12%</span>
+                                        <span class="home-product__sale-off-label">GIẢM</span>
+                                    </div>
+                                </div>
+
+                                <div class="grid-col-product background-white">
+                                    <img src="/assects/img/Asus_zephyrus.png" alt="Asus Zephyrus" class="img-product">
+                                    <div class="content-product">
+                                        <h3 class="name-product">Asus Zephyrus G14 Ryzen 7 4800HS, RTX 3050Ti,...</h3>
+                                        <p class="deal-span">Mua Kèm Deal Sốc</p>
+                                        <div class="cost-span">
+                                            <p class="root-cost">28.990.000đ</p>
+                                            <p class="current-cost">27.990.000đ</p>
+                                        </div>
+                                        <div class="evaluate-product">
+                                            <i class="fal fa-heart"></i>
+                                            <div>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <p class="sold-product">Đã bán <span>3,4k</span></p>
+                                            </div>
+                                        </div>
+                                        <p class="local-product">Hà Nội</p>
+                                    </div>
+                                    <div class="home-product__favorite">
+                                        <i class="far fa-plus"></i>
+                                        Yêu thích
+                                    </div>
+                                    <div class="home-product__sale-off">
+                                        <span class="home-product__sale-off-percent">12%</span>
+                                        <span class="home-product__sale-off-label">GIẢM</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="grid-row">
+                                <div class="grid-col-product background-white">
+                                    <img src="/assects/img/Asus_zephyrus.png" alt="Asus Zephyrus" class="img-product">
+                                    <div class="content-product">
+                                        <h3 class="name-product">Asus Zephyrus G14 Ryzen 7 4800HS, RTX 3050Ti,...</h3>
+                                        <p class="deal-span">Mua Kèm Deal Sốc</p>
+                                        <div class="cost-span">
+                                            <p class="root-cost">28.990.000đ</p>
+                                            <p class="current-cost">27.990.000đ</p>
+                                        </div>
+                                        <div class="evaluate-product">
+                                            <i class="fal fa-heart"></i>
+                                            <div>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <p class="sold-product">Đã bán <span>3,4k</span></p>
+                                            </div>
+                                        </div>
+                                        <p class="local-product">Hà Nội</p>
+                                    </div>
+                                    <div class="home-product__favorite">
+                                        <i class="far fa-plus"></i>
+                                        Yêu thích
+                                    </div>
+                                    <div class="home-product__sale-off">
+                                        <span class="home-product__sale-off-percent">12%</span>
+                                        <span class="home-product__sale-off-label">GIẢM</span>
+                                    </div>
+                                </div>
+
+                                <div class="grid-col-product background-white">
+                                    <img src="/assects/img/Asus_zephyrus.png" alt="Asus Zephyrus" class="img-product">
+                                    <div class="content-product">
+                                        <h3 class="name-product">Asus Zephyrus G14 Ryzen 7 4800HS, RTX 3050Ti,...</h3>
+                                        <p class="deal-span">Mua Kèm Deal Sốc</p>
+                                        <div class="cost-span">
+                                            <p class="root-cost">28.990.000đ</p>
+                                            <p class="current-cost">27.990.000đ</p>
+                                        </div>
+                                        <div class="evaluate-product">
+                                            <i class="fal fa-heart"></i>
+                                            <div>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <p class="sold-product">Đã bán <span>3,4k</span></p>
+                                            </div>
+                                        </div>
+                                        <p class="local-product">Hà Nội</p>
+                                    </div>
+                                    <div class="home-product__favorite">
+                                        <i class="far fa-plus"></i>
+                                        Yêu thích
+                                    </div>
+                                    <div class="home-product__sale-off">
+                                        <span class="home-product__sale-off-percent">12%</span>
+                                        <span class="home-product__sale-off-label">GIẢM</span>
+                                    </div>
+                                </div>
+
+                                <div class="grid-col-product background-white">
+                                    <img src="/assects/img/Asus_zephyrus.png" alt="Asus Zephyrus" class="img-product">
+                                    <div class="content-product">
+                                        <h3 class="name-product">Asus Zephyrus G14 Ryzen 7 4800HS, RTX 3050Ti,...</h3>
+                                        <p class="deal-span">Mua Kèm Deal Sốc</p>
+                                        <div class="cost-span">
+                                            <p class="root-cost">28.990.000đ</p>
+                                            <p class="current-cost">27.990.000đ</p>
+                                        </div>
+                                        <div class="evaluate-product">
+                                            <i class="fal fa-heart"></i>
+                                            <div>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <p class="sold-product">Đã bán <span>3,4k</span></p>
+                                            </div>
+                                        </div>
+                                        <p class="local-product">Hà Nội</p>
+                                    </div>
+                                    <div class="home-product__favorite">
+                                        <i class="far fa-plus"></i>
+                                        Yêu thích
+                                    </div>
+                                    <div class="home-product__sale-off">
+                                        <span class="home-product__sale-off-percent">12%</span>
+                                        <span class="home-product__sale-off-label">GIẢM</span>
+                                    </div>
+                                </div>
+
+                                <div class="grid-col-product background-white">
+                                    <img src="/assects/img/Asus_zephyrus.png" alt="Asus Zephyrus" class="img-product">
+                                    <div class="content-product">
+                                        <h3 class="name-product">Asus Zephyrus G14 Ryzen 7 4800HS, RTX 3050Ti,...</h3>
+                                        <p class="deal-span">Mua Kèm Deal Sốc</p>
+                                        <div class="cost-span">
+                                            <p class="root-cost">28.990.000đ</p>
+                                            <p class="current-cost">27.990.000đ</p>
+                                        </div>
+                                        <div class="evaluate-product">
+                                            <i class="fal fa-heart"></i>
+                                            <div>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <p class="sold-product">Đã bán <span>3,4k</span></p>
+                                            </div>
+                                        </div>
+                                        <p class="local-product">Hà Nội</p>
+                                    </div>
+                                    <div class="home-product__favorite">
+                                        <i class="far fa-plus"></i>
+                                        Yêu thích
+                                    </div>
+                                    <div class="home-product__sale-off">
+                                        <span class="home-product__sale-off-percent">12%</span>
+                                        <span class="home-product__sale-off-label">GIẢM</span>
+                                    </div>
+                                </div>
+
+                                <div class="grid-col-product background-white">
+                                    <img src="/assects/img/Asus_zephyrus.png" alt="Asus Zephyrus" class="img-product">
+                                    <div class="content-product">
+                                        <h3 class="name-product">Asus Zephyrus G14 Ryzen 7 4800HS, RTX 3050Ti,...</h3>
+                                        <p class="deal-span">Mua Kèm Deal Sốc</p>
+                                        <div class="cost-span">
+                                            <p class="root-cost">28.990.000đ</p>
+                                            <p class="current-cost">27.990.000đ</p>
+                                        </div>
+                                        <div class="evaluate-product">
+                                            <i class="fal fa-heart"></i>
+                                            <div>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <i class="fas fa-star star-icon"></i>
+                                                <p class="sold-product">Đã bán <span>3,4k</span></p>
+                                            </div>
+                                        </div>
+                                        <p class="local-product">Hà Nội</p>
+                                    </div>
+                                    <div class="home-product__favorite">
+                                        <i class="far fa-plus"></i>
+                                        Yêu thích
+                                    </div>
+                                    <div class="home-product__sale-off">
+                                        <span class="home-product__sale-off-percent">12%</span>
+                                        <span class="home-product__sale-off-label">GIẢM</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pagination">
+                            <ul class="pagination-container">
+                                <li class="pagination-item"><a href="#" class="pagination-link"><i class="far fa-chevron-left"></i></a></li>
+                                <li class="pagination-item pagination-item-choose"><a href="#" class="pagination-link">1</a></li>
+                                <li class="pagination-item"><a href="#" class="pagination-link">2</a></li>
+                                <li class="pagination-item"><a href="#" class="pagination-link">3</a></li>
+                                <li class="pagination-item"><a href="#" class="pagination-link">4</a></li>
+                                <li class="pagination-item"><a href="#" class="pagination-link">...</a></li>
+                                <li class="pagination-item"><a href="#" class="pagination-link">10</a></li>
+                                <li class="pagination-item"><a href="#" class="pagination-link"><i class="far fa-chevron-right"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <footer class="footer">
+            <div class="start-footer">
+                <div class="grid ">
+                    <div class="grid-row">
+                        <div class="grid-col-5">
+                            <h3>CHĂM SÓC KHÁCH HÀNG</h3>
+                            <ul class="footer__list">
+                                <li class="footer__list-content"><a href="#" class="footer__list-link">Trung Tâm Trợ Giúp</a></li>
+                                <li class="footer__list-content"><a href="#" class="footer__list-link">Hướng Dẫn Mua Hàng</a></li>
+                                <li class="footer__list-content"><a href="#" class="footer__list-link">Hướng Dẫn Bán Hàng</a></li>
+                                <li class="footer__list-content"><a href="#" class="footer__list-link">Chăm Sóc Khách Hàng</a></li>
+                                <li class="footer__list-content"><a href="#" class="footer__list-link">Chính Sách Bảo Hành</a></li>
+                            </ul>
+                        </div>
+                        <div class="grid-col-5">
+                            <h3>VỀ GHOST CAT</h3>
+                            <ul class="footer__list">
+                                <li class="footer__list-content"><a href="#" class="footer__list-link">Giới Thiệu Về Ghost Cat Việt Nam</a></li>
+                                <li class="footer__list-content"><a href="#" class="footer__list-link">Tuyển Dụng</a></li>
+                                <li class="footer__list-content"><a href="#" class="footer__list-link">Chính Sách Bảo Mật</a></li>
+                                <li class="footer__list-content"><a href="#" class="footer__list-link">Chính Hãng</a></li>
+                                <li class="footer__list-content"><a href="#" class="footer__list-link">Liên Hệ Với Chuyền Thông</a></li>
+                            </ul>
+                        </div>
+                        <div class="grid-col-5">
+                            <h3></h3>
+                        </div>
+                        <div class="grid-col-5">
+                            <h3>THEO DÕI CHÚNG TÔI TRÊN</h3>
+                            <ul class="footer__list">
+                                <li class="footer__list-content"><a href="#" class="footer__list-link"><i class="fab fa-facebook"></i>Facebook</a></li>
+                                <li class="footer__list-content"><a href="#" class="footer__list-link"><i class="fab fa-instagram"></i>Instagram</a></li>
+                                <li class="footer__list-content"><a href="#" class="footer__list-link"><i class="fab fa-linkedin"></i>Linkedln</a></li>
+                            </ul>
+                        </div>
+                        <div class="grid-col-5">
+                            <h3>TẢI ỨNG DỤNG GHOST CAT NGAY THÔI</h3>
+                            <div class="footer__download-app">
+                                <div class="footer__QR"><img src="/assects/img/Nike-QR-Code.png" alt="QR"></div>
+                                <div class="footer__app-stort"><img src="/assects/img/Applstore.png" alt="Applstore"><img src="/assects/img/GooglePlay.png" alt="GooglePlay"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="copyright">©2021 - Bản quyền thuộc về Công ty Tín Nguyễn</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Modal Layout -->
+    <!-- <div class="modal"> -->
+        <!-- <div class="modal-overlay"></div> -->
+        <!-- Sign Up Form -->
+        <!-- <div class="modal-container"> 
+            <div class="modal-inner">
+                <div class="close-modal">
+                    <i class="fas fa-times"></i>
+                </div>
+                <div class="modal-header">
+                    <div class="modal-header__name-form">Đăng Ký</div>
+                    <div class="modal-header__login-signup"><a href="#">Đăng nhập</a></div>
+                </div>
+                <div class="modal-body">
+                    <input type="text" placeholder="Số điện thoại" class="modal-body__input">
+                    <input type="text" placeholder="Mật khẩu của bạn" class="modal-body__input">
+                    <input type="text" placeholder="Nhập lại mật khẩu" class="modal-body__input">
+                    <p class="modal-rule">Bằng việc đăng ký, bạn đã đồng ý với Ghost Cat về <a href="#">Điều khoản dịch vụ</a> & <a href="#">Chính sách bảo mật</a></p>
+                    <div class="modal__submit">ĐĂNG KÝ</div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="modal__login-facebook">
+                    <i class="fab fa-facebook-square"></i>
+                    Kết nối với Facebook
+                </div>
+                <div class="modal__login-google">
+                    <img src="/assects/img/google.jpg" alt="Google">
+                    Kết nối với Google
+                </div>
+            </div>
+        </div> -->
+        
+        <!-- Log In Form -->
+        <!-- <div class="modal-container">
+            <div class="modal-inner">
+                <div class="close-modal">
+                    <i class="fas fa-times"></i>
+                </div>
+                <div class="modal-header">
+                    <div class="modal-header__name-form">Đăng nhập</div>
+                    <div class="modal-header__login-signup"><a href="#">Đăng ký</a></div>
+                </div>
+                <div class="modal-body">
+                    <input type="text" placeholder="Email / Số điện thoại" class="modal-body__input">
+                    <input type="text" placeholder="Mật khẩu của bạn" class="modal-body__input">
+                    <div class="modal-body__helps">
+                        <a href="#" class="modal__forgot-password">Quên Mật Khẩu</a>
+                        <a href="#" class="modal__need-help">Cần trợ giúp?</a></div>
+                    <div class="modal__submit">ĐĂNG NHẬP</div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="modal__login-facebook">
+                    <i class="fab fa-facebook-square"></i>
+                    Kết nối với Facebook
+                </div>
+                <div class="modal__login-google">
+                    <img src="/assects/img/google.jpg" alt="Google">
+                    Kết nối với Google
+                </div>
+            </div>
+        </div> -->
+    <!-- </div> -->
+
+</body>
+</html>

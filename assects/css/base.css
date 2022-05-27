@@ -1,0 +1,154 @@
+:root{
+    --white-color: #fff;
+    --black-color: rgb(180, 180, 180);
+    --black-color-rgba: rgba(0, 0, 0, 0.3);
+    --orange-color: #ee4d2d;
+    --blue-color: #349cfd;
+    --light-blue-color: #4aa5fa;
+    --text-color: #444;
+    --text-lightgray: #999;
+    --background-color-gray: rgb(224, 224, 224);
+    --background-color-lightgray: rgb(236, 236, 236);
+}
+
+*{
+    box-sizing: inherit;
+    list-style: none;
+    text-decoration: none;
+}
+
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+a{
+    color: var(--text-color);
+}
+
+.weight-600{
+    font-weight: 600;
+}
+
+.grid{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0px auto;
+}
+
+.grid__full-width{
+    width: 100%;
+}
+
+.grid-row{
+    display: flex;
+    /* flex-wrap: wrap; */
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.grid-col{
+    width: 8.3333%;
+}
+
+.grid-col-2{
+    max-width: 16.6667%;
+}
+
+.grid-col-5{
+    width: 20%;
+}
+
+.grid-col-product{
+    margin: 5px;
+    position: relative;
+    max-width: 20%;
+    transition: ease 0.2s;
+    box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.5);
+}
+
+.grid-col-product:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.8);
+}
+
+.grid-col-10{
+    width: 83.3334%;
+}
+
+.btn{
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+/* 
+.modal{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+}
+
+.modal-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--black-color-rgba);
+    animation: kf-opacity ease .7s;
+}
+
+.modal-container{
+    z-index: 1;
+    margin: auto;
+    background-color: var(--white-color);
+    border-radius: 5px;
+    min-width: 500px;
+    animation: kf-scale ease .7s;
+} */
+
+.hover-opacity:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.hover-dark:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.background-white{
+    background-color: white;
+    border-radius: 3px;
+}
+
+/* Animation */
+@keyframes kf-opacity {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes kf-scale {
+    from{
+        transform: scale(0);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+
+@keyframes kf-scale-in{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(0);
+    }
+}
